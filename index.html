@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirect by Language</title>
+    <script>
+        (function () {
+            const lang = navigator.language || navigator.userLanguage; 
+
+            if (lang.includes('ru')) {
+                window.location.href = 'ru/';
+            } else {
+                window.location.href = 'en/';
+            }
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
