@@ -3,3 +3,6 @@ Allow: /ru/
 Allow: /en/
 Allow: /index.html
 Disallow: /cgi-bin/
+
+Sitemap: https://atlas.youlink.uk/sitemap.xml
+
