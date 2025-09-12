@@ -1,8 +1,9 @@
 User-agent: *
 Allow: /ru/
 Allow: /en/
-Allow: /index.html
+Allow: /index.htm
 Disallow: /cgi-bin/
 
 Sitemap: https://atlas.youlink.uk/sitemap.xml
+
 
