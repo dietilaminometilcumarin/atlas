@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Atlas Surround Radio</title>
+    <link>https://atlas.youlink.uk</link>
+    <description>Atlas Radio — radio for authors and listeners. Send your music for world!</description>
+    <language>en-us</language>
+    <image>
+      <url>https://atlas.youlink.uk/rss/logo.png</url>
+      <title>Atlas: Music & Podcasts</title>
+      <link>https://atlas.youlink.uk</link>
+    </image>
+
+    <!-- Один элемент — это ваш поток. Можно добавить несколько, если хочешь "эпизоды" -->
+    <item>
+      <title>Atlas Radio Live Stream</title>
+      <description>Radio for authors and listeners.</description>
+      <enclosure url="http://radio.youlink.uk" type="audio/mpeg" />
+      <guid>http://radio.youlink.uk</guid>
+    </item>
+
+  </channel>
+</rss>
