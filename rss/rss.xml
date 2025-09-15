@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Atlas Surround Radio</title>
+    <title>Radio Black Star</title>
     <link>https://atlas.youlink.uk</link>
-    <description>Atlas Radio — radio for authors and listeners. Send your music for world!</description>
+    <description>Black Star — radio for authors and listeners. Send your music for world!</description>
     <language>en-us</language>
     <image>
       <url>https://atlas.youlink.uk/rss/logo.jpg</url>
-      <title>Atlas: Music and Podcasts</title>
+      <title>RADIO: Black Star</title>
       <link>https://atlas.youlink.uk</link>
     </image>
 
     <!-- Один элемент — это ваш поток. Можно добавить несколько, если хочешь "эпизоды" -->
     <item>
-      <title>Atlas Radio Live Stream</title>
+      <title>Black Star Live Stream</title>
       <description>Radio for authors and listeners.</description>
       <enclosure url="https://radio.youlink.uk" type="audio/mpeg" />
       <guid>https://radio.youlink.uk</guid>
