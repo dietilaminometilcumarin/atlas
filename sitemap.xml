@@ -2,15 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://atlas.youlink.uk/index.htm</loc>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://atlas.youlink.uk/ru/index.htm</loc>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://atlas.youlink.uk/en/index.htm</loc>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
 </urlset>
+
