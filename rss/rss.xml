@@ -13,11 +13,16 @@
 
     <!-- Один элемент — это ваш поток. Можно добавить несколько, если хочешь "эпизоды" -->
     <item>
-      <title>Black Star Live Stream</title>
+      <title>Black Star (WORLD)</title>
       <description>Radio for authors and listeners.</description>
       <enclosure url="https://radio.youlink.uk" type="audio/mpeg" />
       <guid>https://radio.youlink.uk</guid>
     </item>
-
+    <item>
+      <title>Black Star (RU)</title>
+      <description>Радио для авторов и слушателей.</description>
+      <enclosure url="https://radio.youlink.uk" type="audio/mpeg" />
+      <guid>https://radio.youlink.uk</guid>
+    </item>
   </channel>
 </rss>
