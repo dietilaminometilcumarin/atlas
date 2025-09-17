@@ -15,14 +15,8 @@
     <item>
       <title>Black Star (WORLD)</title>
       <description>Radio for authors and listeners.</description>
-      <enclosure url="https://radio.youlink.uk" type="audio/mpeg" />
+      <enclosure url="https://radio.youlink.uk/stream" type="audio/mpeg" />
       <guid>https://radio.youlink.uk</guid>
-    </item>
-    <item>
-      <title>Black Star (RU)</title>
-      <description>Радио для авторов и слушателей.</description>
-      <enclosure url="https://radio.youlink.uk/ru" type="audio/mpeg" />
-      <guid>https://radio.youlink.uk/ru</guid>
     </item>
   </channel>
 </rss>
