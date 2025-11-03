@@ -1,29 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="yandex-verification" content="7159b1fb7e6c0413" />
-    <link rel="alternate" hreflang="en" href="https://atlas.youlink.uk/en/index.htm" />
-    <link rel="alternate" hreflang="ru" href="https://atlas.youlink.uk/ru/index.htm" />
-    <link rel="alternate" hreflang="x-default" href="https://atlas.youlink.uk/index.htm" />
-    <meta name="robots" content="all">
-    <title>qBase - Surround Music Online</title>
-    <script>
-        (function () {
-            const lang = navigator.language || navigator.userLanguage; 
+  <meta charset="UTF-8">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>qBase – Surround Music Online</title>
 
-            if (lang.includes('ru')) {
-                window.location.href = 'ru/';
-            } else {
-                window.location.href = 'en/';
-            }
-        })();
-    </script>
+  <link rel="alternate" hreflang="en" href="https://atlas.youlink.uk/en/" />
+  <link rel="alternate" hreflang="ru" href="https://atlas.youlink.uk/ru/" />
+  <link rel="alternate" hreflang="x-default" href="https://atlas.youlink.uk/" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      color: #f1f5f9;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    .language-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .language-links a {
+      text-decoration: none;
+      color: #0ea5e9;
+      font-weight: 600;
+      font-size: 1.1rem;
+      border: 2px solid #0ea5e9;
+      border-radius: 6px;
+      padding: 0.6rem 1.5rem;
+      transition: all 0.3s ease;
+    }
+
+    .language-links a:hover {
+      background-color: #0ea5e9;
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(14,165,233,0.3);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+  </style>
 </head>
 <body>
-    <h1>qBase - Surround Music Online</h1>
+  <main>
+    <h1>Welcome to qBase</h1>
+    <p>Select your preferred language:</p>
+    <div class="language-links">
+      <a href="/en/">English</a>
+      <a href="/ru/">Русский</a>
+    </div>
+  </main>
+  <footer>© 2025 qBase – Surround Music Online</footer>
 </body>
 </html>
+
+
 
 
 
